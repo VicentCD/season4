@@ -8,6 +8,22 @@
         <servlet-name>ServletCicloVida</servlet-name>
         <servlet-class>ServletCicloVida</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletPeticiones</servlet-name>
+        <servlet-class>ServletPeticiones</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletScope1</servlet-name>
+        <servlet-class>ServletScope1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletScope2</servlet-name>
+        <servlet-class>ServletScope2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletScope3</servlet-name>
+        <servlet-class>ServletScope3</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrimerServlet</servlet-name>
         <url-pattern>/PrimerServlet</url-pattern>
@@ -15,6 +31,22 @@
     <servlet-mapping>
         <servlet-name>ServletCicloVida</servlet-name>
         <url-pattern>/ServletCicloVida</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletPeticiones</servlet-name>
+        <url-pattern>/ServletPeticiones</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletScope1</servlet-name>
+        <url-pattern>/ServletScope1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletScope2</servlet-name>
+        <url-pattern>/ServletScope2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletScope3</servlet-name>
+        <url-pattern>/ServletScope3</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
